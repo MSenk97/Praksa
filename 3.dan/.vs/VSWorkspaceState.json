@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TestProject",
+    "\\TestProject\\TestProject.WebApi",
+    "\\TestProject\\TestProject.WebApi\\App_Start",
+    "\\TestProject\\TestProject.WebApi\\Controllers"
+  ],
+  "SelectedNode": "\\TestProject\\TestProject.WebApi\\Controllers\\StudentController.cs",
+  "PreviewInSolutionExplorer": false
+}
