@@ -13,8 +13,9 @@ namespace TestProject.WebApi.Repository
 {
     public class StudentRepository
     {
-
-        static readonly SqlConnection Connection = new SqlConnection(@"Server=tcp:msenk.database.windows.net,1433;Initial Catalog=Praksa;Persist Security Info=False;User ID=msenk;Password=7991Schnekec1997;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        private static readonly string myConnectionString = ConfigurationManager.ConnectionStrings["defcon"].ConnectionString;
+        private static readonly SqlConnection Connection = new SqlConnection(myConnectionString);
+        private static SqlDataReader reader;
 
         public static DataTable GetAllStudents()
         {
@@ -83,7 +84,6 @@ namespace TestProject.WebApi.Repository
 
         public static void DeleteStudent(int id) {
 
-            SqlDataReader reader;
             SqlCommand sqlCmd = new SqlCommand();
             sqlCmd.CommandType = CommandType.Text;
             sqlCmd.CommandText = "DELETE FROM Student WHERE StudentID=" + id + "";
