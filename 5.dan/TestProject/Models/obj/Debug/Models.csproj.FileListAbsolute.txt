@@ -1,0 +1,6 @@
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Models\bin\Debug\Models.dll
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Models\bin\Debug\Models.pdb
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Models\obj\Debug\Models.dll
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Models\obj\Debug\Models.pdb
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Models\obj\Debug\Models.csprojAssemblyReference.cache

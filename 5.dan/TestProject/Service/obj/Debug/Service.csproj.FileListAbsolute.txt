@@ -1,0 +1,11 @@
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\bin\Debug\Service.dll
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\bin\Debug\Service.pdb
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\bin\Debug\Models.dll
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\bin\Debug\Repository.dll
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\bin\Debug\Models.pdb
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\bin\Debug\Repository.pdb
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\obj\Debug\Service.dll
+C:\Users\schnekec\Desktop\PraksaTest\4.dan\TestProject\Service\obj\Debug\Service.pdb

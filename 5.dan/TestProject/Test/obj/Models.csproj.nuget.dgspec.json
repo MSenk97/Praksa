@@ -1,0 +1,191 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Test\\Models.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\schnekec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\schnekec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\TestProject.WebApi\\TestProject.WebApi.csproj": {
+                "projectPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\TestProject.WebApi\\TestProject.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\schnekec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\schnekec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\TestProject.WebApi\\TestProject.WebApi.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\TestProject.WebApi\\TestProject.WebApi.csproj",
+        "projectName": "TestProject.WebApi",
+        "projectPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\TestProject.WebApi\\TestProject.WebApi.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Test\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Test\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Test\\Models.csproj",
+        "packagesPath": "C:\\Users\\schnekec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\schnekec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Repository\\Repository.csproj"
+              },
+              "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\schnekec\\Desktop\\PraksaTest\\4.dan\\TestProject\\Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
