@@ -21,7 +21,7 @@ namespace TestProject.WebApi.Repository
         {
             //Get metoda
             SqlCommand sqlCmd = new SqlCommand("SELECT StudentID AS \"ID\", Ime AS \"Ime studenta\", FakultetID AS \"FakultetID\" FROM Student", Connection);
-           
+
             await Connection.OpenAsync();
             reader = sqlCmd.ExecuteReader();
             Student student = null;
