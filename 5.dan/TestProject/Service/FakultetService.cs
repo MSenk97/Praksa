@@ -6,7 +6,7 @@ using TestProject.WebApi.Repository;
 using System.Threading.Tasks;
 
 
-namespace IFakultet.Service
+namespace FakultetServices
 {
     public class FakultetService
     {
