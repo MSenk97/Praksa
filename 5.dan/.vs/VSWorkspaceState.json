@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\TestProject",
+    "\\TestProject\\Repository",
     "\\TestProject\\TestProject.WebApi",
-    "\\TestProject\\TestProject.WebApi\\App_Start",
     "\\TestProject\\TestProject.WebApi\\Controllers"
   ],
   "SelectedNode": "\\TestProject\\TestProject.sln",
