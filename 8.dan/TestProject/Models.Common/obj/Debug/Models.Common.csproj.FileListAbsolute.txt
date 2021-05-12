@@ -4,3 +4,8 @@ C:\Users\schnekec\Desktop\PraksaTest\5.dan\TestProject\Models.Common\obj\Debug\M
 C:\Users\schnekec\Desktop\PraksaTest\5.dan\TestProject\Models.Common\obj\Debug\Models.Common.csproj.CoreCompileInputs.cache
 C:\Users\schnekec\Desktop\PraksaTest\5.dan\TestProject\Models.Common\obj\Debug\Models.Common.dll
 C:\Users\schnekec\Desktop\PraksaTest\5.dan\TestProject\Models.Common\obj\Debug\Models.Common.pdb
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Models.Common\bin\Debug\Models.Common.dll
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Models.Common\bin\Debug\Models.Common.pdb
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Models.Common\obj\Debug\Models.Common.csproj.CoreCompileInputs.cache
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Models.Common\obj\Debug\Models.Common.dll
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Models.Common\obj\Debug\Models.Common.pdb

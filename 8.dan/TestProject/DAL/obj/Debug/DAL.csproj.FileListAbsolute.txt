@@ -1,0 +1,5 @@
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\DAL\bin\Debug\DAL.dll
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\DAL\bin\Debug\DAL.pdb
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\DAL\obj\Debug\DAL.dll
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\DAL\obj\Debug\DAL.pdb

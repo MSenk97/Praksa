@@ -12,9 +12,9 @@ namespace Students.Service
     public class StudentService : IStudentService
     {
         public IStudentRepository Repository { get; set; }
-        public StudentService()
+        public StudentService(IStudentRepository repository)
         {
-            Repository = new StudentRepository();
+            this.Repository = repository;
         }
 
        

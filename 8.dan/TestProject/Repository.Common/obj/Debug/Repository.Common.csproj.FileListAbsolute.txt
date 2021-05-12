@@ -22,3 +22,15 @@ C:\Users\schnekec\Desktop\PraksaTest\7.dan\TestProject\Repository.Common\obj\Deb
 C:\Users\schnekec\Desktop\PraksaTest\7.dan\TestProject\Repository.Common\obj\Debug\Repository.Common.csproj.CopyComplete
 C:\Users\schnekec\Desktop\PraksaTest\7.dan\TestProject\Repository.Common\obj\Debug\Repository.Common.dll
 C:\Users\schnekec\Desktop\PraksaTest\7.dan\TestProject\Repository.Common\obj\Debug\Repository.Common.pdb
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\bin\Debug\Repository.Common.dll
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\bin\Debug\Repository.Common.pdb
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\bin\Debug\Models.Common.dll
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\bin\Debug\Models.dll
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\bin\Debug\Models.Common.pdb
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\bin\Debug\Models.pdb
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\bin\Debug\Models.dll.config
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\obj\Debug\Repository.Common.csprojAssemblyReference.cache
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\obj\Debug\Repository.Common.csproj.CoreCompileInputs.cache
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\obj\Debug\Repository.Common.csproj.CopyComplete
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\obj\Debug\Repository.Common.dll
+C:\Users\schnekec\Desktop\PraksaTest\8.dan\TestProject\Repository.Common\obj\Debug\Repository.Common.pdb

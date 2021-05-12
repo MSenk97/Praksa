@@ -19,6 +19,8 @@ using TestFakultetController;
 using TestProject.WebApi.Repository;
 using TestStudentController;
 using TestProject.WebApi.Repository.Common;
+using AutoMapper;
+using TestProject.WebApi.AutoMapper;
 
 
 
@@ -38,20 +40,36 @@ namespace TestProject.WebApi
             #region DIModule
 
             var builder = new ContainerBuilder();
+  
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
             builder.RegisterType<Student>().As<IStudent>();
             builder.RegisterType<StudentRepository>().As<IStudentRepository>();
             builder.RegisterType<StudentService>().As<IStudentService>();
             builder.RegisterType<StudentController>().InstancePerRequest();
             builder.RegisterType<FakultetController>().InstancePerRequest();
-
+            //dovrsiti fakultet
             #endregion DIModule
+
+            builder.Register(context => new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<AutoMapperProfile>();
+            })).AsSelf().InstancePerRequest();
+
+            builder.Register(c =>
+            {
+                var context = c.Resolve<IComponentContext>();
+                var config = context.Resolve<MapperConfiguration>();
+                return config.CreateMapper(context.Resolve);
+            }).As<IMapper>().InstancePerLifetimeScope();
+
 
             var container = builder.Build();
 
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
             GlobalConfiguration.Configuration.DependencyResolver = new AutofacWebApiDependencyResolver(container);
 
+            
         }
+
     }
 }

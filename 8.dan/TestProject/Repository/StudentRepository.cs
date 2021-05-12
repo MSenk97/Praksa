@@ -7,6 +7,8 @@ using StudentInterface;
 using System.Configuration;
 using System.Threading.Tasks;
 using TestProject.WebApi.Repository.Common;
+using AutoMapper;
+using StudentsEntity;
 
 namespace TestProject.WebApi.Repository
 {
@@ -15,19 +17,28 @@ namespace TestProject.WebApi.Repository
         private static readonly string myConnectionString = ConfigurationManager.ConnectionStrings["defcon"].ConnectionString;
         private static readonly SqlConnection Connection = new SqlConnection(myConnectionString);
         private static SqlDataReader reader;
+        private readonly IMapper mapper;
 
+        public StudentRepository(IMapper mapper)
+        {
+            this.mapper = mapper;
+        }
+        
+        
         public async Task<List<IStudent>> GetAllStudents()
         {
             //Get metoda
+            
             SqlCommand sqlCmd = new SqlCommand("SELECT StudentID AS \"ID\", Ime AS \"Ime studenta\", FakultetID AS \"FakultetID\" FROM Student", Connection);
 
             await Connection.OpenAsync();
             reader = sqlCmd.ExecuteReader();
-            IStudent student = null;
+            //IStudent student = null;
             List<IStudent> studentList = new List<IStudent>();
             while (reader.Read())
             {
-                student = new Student();
+
+                IStudent student = new Student();
                 student.StudentID = Convert.ToInt32(reader.GetValue(0));
                 student.Ime = reader.GetValue(1).ToString();
                 student.FakultetID = Convert.ToInt32(reader.GetValue(2));
@@ -35,7 +46,7 @@ namespace TestProject.WebApi.Repository
             }
 
             Connection.Close();
-            return studentList;
+            return mapper.Map<List<IStudent>>(studentList); 
         }
 
         public async Task<IStudent> GetStudent(int id)
@@ -54,8 +65,7 @@ namespace TestProject.WebApi.Repository
                 student.FakultetID = Convert.ToInt32(reader.GetValue(2));
             }
             Connection.Close();
-
-            return student;
+            return mapper.Map<IStudent>(student);
         }
         public async Task AddStudent(IStudent student)
         {
@@ -83,19 +93,16 @@ namespace TestProject.WebApi.Repository
             await sqlCmd.ExecuteNonQueryAsync();
             Connection.Close();
 
-            return;
         }
 
         public async Task DeleteStudent(int id)
         {
-
             SqlCommand sqlCmd = new SqlCommand("DELETE FROM Student WHERE StudentID=" + id + "", Connection);
 
             await Connection.OpenAsync();
             SqlDataReader reader = await sqlCmd.ExecuteReaderAsync();
             Connection.Close();
 
-            return;
         }
     }
 }
