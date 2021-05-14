@@ -1,0 +1,9 @@
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\bin\Debug\TestProject.CommonInterface.dll
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\bin\Debug\TestProject.CommonInterface.pdb
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\bin\Debug\TestProject.Common.dll
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\bin\Debug\TestProject.Common.pdb
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\obj\Debug\TestProject.CommonInterface.csprojAssemblyReference.cache
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\obj\Debug\TestProject.CommonInterface.csproj.CoreCompileInputs.cache
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\obj\Debug\TestProject.CommonInterface.csproj.CopyComplete
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\obj\Debug\TestProject.CommonInterface.dll
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.CommonInterface\obj\Debug\TestProject.CommonInterface.pdb

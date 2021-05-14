@@ -1,0 +1,6 @@
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.Common\bin\Debug\TestProject.Common.dll
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.Common\bin\Debug\TestProject.Common.pdb
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.Common\obj\Debug\TestProject.Common.csprojAssemblyReference.cache
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.Common\obj\Debug\TestProject.Common.csproj.CoreCompileInputs.cache
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.Common\obj\Debug\TestProject.Common.dll
+C:\Users\schnekec\Desktop\PraksaTest\9.dan\TestProject\TestProject.Common\obj\Debug\TestProject.Common.pdb
