@@ -9,11 +9,13 @@ using System.Threading.Tasks;
 using Students.Service.Common;
 using AutoMapper;
 using TestProject.Common;
+using System.Web.Http.Cors;
 
 
 namespace TestStudentController
 {
 
+    //[EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
     public class StudentController : ApiController
     {
 
